@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-11T05:09:06 CST" name="Suite" finished-at="2021-02-11T05:09:39 CST" duration-ms="32302">
+    <groups>
+    </groups>
+    <test started-at="2021-02-11T05:09:06 CST" name="Test2" finished-at="2021-02-11T05:09:36 CST" duration-ms="29525">
+      <class name="ParallelTest.ParallelTest2">
+        <test-method signature="loginTest()[pri:0, instance:ParallelTest.ParallelTest2@1ce24091]" started-at="2021-02-11T05:09:07 CST" name="loginTest" finished-at="2021-02-11T05:09:35 CST" duration-ms="28268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest2@1ce24091]" started-at="2021-02-11T05:09:35 CST" name="tearDown" finished-at="2021-02-11T05:09:36 CST" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest.ParallelTest2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-02-11T05:09:06 CST" name="Test1" finished-at="2021-02-11T05:09:39 CST" duration-ms="32302">
+      <class name="ParallelTest.ParallelTest1">
+        <test-method signature="homePageTitle()[pri:0, instance:ParallelTest.ParallelTest1@229f66ed]" started-at="2021-02-11T05:09:07 CST" name="homePageTitle" finished-at="2021-02-11T05:09:26 CST" duration-ms="19587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest1@229f66ed]" started-at="2021-02-11T05:09:26 CST" name="tearDown" finished-at="2021-02-11T05:09:27 CST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="logoTest()[pri:0, instance:ParallelTest.ParallelTest1@229f66ed]" started-at="2021-02-11T05:09:27 CST" name="logoTest" finished-at="2021-02-11T05:09:38 CST" duration-ms="10605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest1@229f66ed]" started-at="2021-02-11T05:09:38 CST" name="tearDown" finished-at="2021-02-11T05:09:39 CST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest.ParallelTest1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+  <suite started-at="2021-02-11T05:09:39 CST" name="Suite (0)" finished-at="2021-02-11T05:10:03 CST" duration-ms="24474">
+    <groups>
+    </groups>
+    <test started-at="2021-02-11T05:09:39 CST" name="Test1" finished-at="2021-02-11T05:10:03 CST" duration-ms="24474">
+      <class name="ParallelTest.ParallelTest1">
+        <test-method signature="homePageTitle()[pri:0, instance:ParallelTest.ParallelTest1@752325ad]" started-at="2021-02-11T05:09:39 CST" name="homePageTitle" finished-at="2021-02-11T05:09:50 CST" duration-ms="11468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest1@752325ad]" started-at="2021-02-11T05:09:50 CST" name="tearDown" finished-at="2021-02-11T05:09:51 CST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="logoTest()[pri:0, instance:ParallelTest.ParallelTest1@752325ad]" started-at="2021-02-11T05:09:51 CST" name="logoTest" finished-at="2021-02-11T05:10:02 CST" duration-ms="11017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest1@752325ad]" started-at="2021-02-11T05:10:02 CST" name="tearDown" finished-at="2021-02-11T05:10:03 CST" duration-ms="1240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest.ParallelTest1 -->
+      <class name="ParallelTest.ParallelTest2">
+        <test-method signature="loginTest()[pri:0, instance:ParallelTest.ParallelTest2@279fedbd]" started-at="2021-02-11T05:09:39 CST" name="loginTest" finished-at="2021-02-11T05:09:59 CST" duration-ms="20273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ParallelTest.ParallelTest2@279fedbd]" started-at="2021-02-11T05:09:59 CST" name="tearDown" finished-at="2021-02-11T05:10:00 CST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ParallelTest.ParallelTest2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
